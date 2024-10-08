@@ -37,3 +37,10 @@ body {
   font-family: var(--font-family);
   font-weight: var(--font-weight-regular);
 }
+
+.logo {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+
+  font-size: 2rem;
+}
