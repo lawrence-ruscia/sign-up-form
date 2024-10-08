@@ -26,7 +26,7 @@
   --color-primary: #397ef6;
   --color-secondary: #253248;
   --color-background: #fafbfc;
-  --color-text: #c5c2c2;
+  --color-text: #a59f9f;
   --font-family: "Roboto", sans-serif;
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -101,4 +101,10 @@ select:active {
   top: 2px;
   right: 10px;
   position: absolute;
+}
+
+.sub-title {
+  margin-top: 6rem;
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
 }
