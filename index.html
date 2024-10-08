@@ -21,6 +21,33 @@
         />
       </div>
     </div>
-    <div class="main-content"></div>
+    <div class="main-content">
+      <select name="selected-language" id="language">
+        <option value="en">English (USA)</option>
+      </select>
+
+      <div class="sub-title">START YOUR CODING JOURNEY</div>
+      <div class="main-title">Sign up to The Odin Project.</div>
+      <div class="log-in">
+        Already an account?
+        <a href="https://www.theodinproject.com/sign_in">Log in</a>
+      </div>
+
+      <form action="example.com/path" method="post" class="signup-form">
+        <input type="text" id="first-name" placeholder="Thor" />
+        <input type="text" id="last-name" placeholder="Odinson" />
+        <input type="email" id="email" placeholder="name@mail.com" />
+        <input type="tel" id="phone" />
+        <input type="password" id="password" />
+        <input type="password" id="confirm-password" />
+
+        <button type="submit" id="create-account-button">
+          Create an account
+        </button>
+        <button type="button" id="google-signup">
+          <img src="" alt="google icon" /> <span>Sign up with Google</span>
+        </button>
+      </form>
+    </div>
   </body>
 </html>
