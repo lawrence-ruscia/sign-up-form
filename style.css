@@ -58,10 +58,16 @@ body {
   color: var(--color-primary);
 
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .description {
   color: var(--color-text);
+}
+
+.image img {
+  max-width: 100%;
+  width: 75%;
 }
 
 select,
