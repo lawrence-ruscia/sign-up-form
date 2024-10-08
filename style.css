@@ -27,4 +27,13 @@
   --color-secondary: #253248;
   --color-background: #fafbfc;
   --color-text: #808080;
+  --font-family: "Roboto", sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
 }
