@@ -44,10 +44,12 @@ body {
 }
 
 .side-bar {
+  width: 50%;
   border: 1px solid red;
 }
 
 .main-content {
+  width: 50%;
   border: 1px solid red;
 }
 
@@ -60,11 +62,6 @@ body {
 
 .description {
   color: var(--color-text);
-}
-
-.lang-container {
-  display: flex;
-  justify-content: end;
 }
 
 select,
@@ -87,11 +84,13 @@ select:active {
   background-color: transparent;
   border: none;
   -webkit-appearance: none;
-
+  width: 140px;
   color: var(--color-secondary);
 }
 
 .select-wrapper {
+  display: flex;
+  justify-content: end;
   position: relative;
 }
 
