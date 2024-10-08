@@ -108,3 +108,10 @@ select:active {
   color: var(--color-text);
   font-weight: var(--font-weight-bold);
 }
+
+.main-title {
+  line-height: 5rem;
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+  font-size: 3rem;
+}
