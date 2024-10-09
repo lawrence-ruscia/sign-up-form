@@ -121,3 +121,16 @@ select:active {
   font-weight: var(--font-weight-bold);
   font-size: 3rem;
 }
+
+a:link,
+a:hover,
+a:visited {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+}
+
+.log-in {
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
+}
