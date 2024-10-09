@@ -89,7 +89,7 @@ select:focus,
 select:active {
   background-color: transparent;
   border: none;
-  -webkit-appearance: none;
+  appearance: none;
   width: 140px;
   color: var(--color-secondary);
 }
