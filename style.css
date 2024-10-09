@@ -46,7 +46,7 @@ body {
   font-family: var(--font-family);
   font-weight: var(--font-weight-regular);
 
-  padding: 5rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -54,12 +54,10 @@ body {
 
 .side-bar {
   width: 45%;
-  border: 1px solid red;
 }
 
 .main-content {
   width: 55%;
-  border: 1px solid red;
 }
 
 .logo {
@@ -216,4 +214,24 @@ input[type="tel"] {
   background-size: 6%;
   background-position: 360px 9px;
   background-repeat: no-repeat;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 3rem;
+  width: 100%;
+  flex-direction: column;
+  padding-right: 5rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+button[type="submit"] {
+  width: 50%;
+  height: 60px;
+}
+
+button[type="button"] {
+  width: 50%;
+  height: 60px;
 }
