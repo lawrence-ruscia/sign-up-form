@@ -40,6 +40,9 @@
   --font-weight-regular: 400;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
+
+  --icon-bg-size: 7%;
+  --icon-bg-position: 350px 16px;
 }
 
 body {
@@ -151,11 +154,15 @@ form {
 
 input {
   width: 400px;
-  padding: 1rem 2.5rem 1rem 1rem;
-  height: 3rem;
+  padding: 1rem 3.2rem 1rem 1rem;
+  height: 4rem;
 
   border: 2px solid var(--color-text);
   border-radius: 10px;
+
+  background-size: var(--icon-bg-size);
+  background-position: var(--icon-bg-position);
+  background-repeat: no-repeat;
 }
 
 input:hover,
@@ -176,42 +183,27 @@ label {
 }
 
 .personal-info {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 input[type="text"] {
   background-image: url(./assets/images/name-icon.svg);
-  background-size: 6%;
-  background-position: 360px 9px;
-  background-repeat: no-repeat;
 }
 
 input[type="email"] {
   background-image: url(./assets/images/email-icon.svg);
-  background-size: 6%;
-  background-position: 360px 9px;
-  background-repeat: no-repeat;
 }
 
 input[type="tel"] {
   background-image: url(./assets/images/phone-icon.svg);
-  background-size: 6%;
-  background-position: 360px 9px;
-  background-repeat: no-repeat;
 }
 
 .pass {
   background-image: url(./assets/images/password-icon.svg);
-  background-size: 6%;
-  background-position: 360px 9px;
-  background-repeat: no-repeat;
 }
 
 .confirm {
   background-image: url(./assets/images/password-icon.svg);
-  background-size: 6%;
-  background-position: 360px 9px;
-  background-repeat: no-repeat;
 }
 
 .button-container {
@@ -220,21 +212,48 @@ input[type="tel"] {
   width: 100%;
   flex-direction: column;
   padding-right: 5rem;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
-button[type="submit"] {
+button {
   width: 50%;
-  height: 60px;
+  height: 65px;
+
+  border-radius: 10px;
+
+  appearance: none;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button[type="submit"]:active,
+button[type="submit"]:hover {
+  --color-primary: #5e98fe;
+  background-color: var(--color-primary);
+}
+
+button[type="button"]:active,
+button[type="button"]:hover {
+  --color-background: #efefef;
+  background-color: var(--color-background);
+}
+
+button[type="submit"] {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border: none;
 }
 
 button[type="button"] {
-  width: 50%;
-  height: 60px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+
+  background-color: var(--color-background);
+  border: 2px solid var(--color-text);
 }
