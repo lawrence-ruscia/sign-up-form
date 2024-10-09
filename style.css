@@ -176,6 +176,7 @@ input::after {
 label {
   color: var(--color-secondary);
   font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 0.5rem;
 }
 
 .personal-info {
