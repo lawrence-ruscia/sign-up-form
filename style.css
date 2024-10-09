@@ -256,3 +256,12 @@ button[type="button"] {
   background-color: var(--color-background);
   border: 2px solid var(--color-text);
 }
+
+/* Validation styles */
+input:focus:invalid {
+  border-color: #ec6769;
+}
+
+input:focus:valid {
+  border-color: #34a986;
+}
