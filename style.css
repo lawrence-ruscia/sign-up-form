@@ -211,7 +211,6 @@ input[type="tel"] {
   margin-top: 3rem;
   width: 100%;
   flex-direction: column;
-  padding-right: 5rem;
   gap: 1rem;
   align-items: center;
 }
