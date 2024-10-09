@@ -234,4 +234,9 @@ button[type="submit"] {
 button[type="button"] {
   width: 50%;
   height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
