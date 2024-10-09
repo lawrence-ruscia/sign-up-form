@@ -44,12 +44,12 @@ body {
 }
 
 .side-bar {
-  width: 50%;
+  width: 45%;
   border: 1px solid red;
 }
 
 .main-content {
-  width: 50%;
+  width: 55%;
   border: 1px solid red;
 }
 
