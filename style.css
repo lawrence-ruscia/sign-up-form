@@ -258,7 +258,9 @@ button[type="button"] {
 }
 
 /* Validation styles */
-input:focus:invalid {
+
+/* This will apply red border to input fields that is invalid and but have content */
+input:focus:not(:placeholder-shown):invalid {
   border-color: #ec6769;
 }
 
