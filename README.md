@@ -1,6 +1,6 @@
 # Sign-up Form
 
-This project is part of the Intermediate HTML and CSS course from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). It serves as a demonstration of my knowledge in building forms using HTML and styling them with CSS. The focus is on implementing form validation, responsive design, and visually appealing layouts.
+This project is part of the Intermediate HTML and CSS course from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). It serves as a demonstration of my knowledge in building forms using HTML and styling them with CSS. The focus is on implementing form validation and visually appealing layouts.
 
 ## Screenshots
 
